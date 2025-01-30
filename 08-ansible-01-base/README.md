@@ -22,6 +22,19 @@
 12. Заполните `README.md` ответами на вопросы. Сделайте `git push` в ветку `master`. В ответе отправьте ссылку на ваш открытый репозиторий с изменённым `playbook` и заполненным `README.md`.
 13. Предоставьте скриншоты результатов запуска команд.
 
+## Решение
+
+![Alt text](https://github.com/RuslanArestov/Ansible_Study/blob/master/images/1.1.png) </br>
+![Alt text](https://github.com/RuslanArestov/Ansible_Study/blob/master/images/1.4.png) </br>
+![Alt text](https://github.com/RuslanArestov/Ansible_Study/blob/master/images/1.5.png) </br>
+![Alt text](https://github.com/RuslanArestov/Ansible_Study/blob/master/images/1.7.png) </br>
+![Alt text](https://github.com/RuslanArestov/Ansible_Study/blob/master/images/1.8.png) </br>
+![Alt text](https://github.com/RuslanArestov/Ansible_Study/blob/master/images/1.9.png) </br>
+![Alt text](https://github.com/RuslanArestov/Ansible_Study/blob/master/images/1.10.png) </br>
+![Alt text](https://github.com/RuslanArestov/Ansible_Study/blob/master/images/1.11.png) 
+
+
+
 ## Необязательная часть
 
 1. При помощи `ansible-vault` расшифруйте все зашифрованные файлы с переменными.
@@ -30,6 +43,13 @@
 4. Добавьте новую группу хостов `fedora`, самостоятельно придумайте для неё переменную. В качестве образа можно использовать [этот вариант](https://hub.docker.com/r/pycontribs/fedora).
 5. Напишите скрипт на bash: автоматизируйте поднятие необходимых контейнеров, запуск ansible-playbook и остановку контейнеров.
 6. Все изменения должны быть зафиксированы и отправлены в ваш личный репозиторий.
+
+## Решение
+
+![Alt text](https://github.com/RuslanArestov/Ansible_Study/blob/master/images/2.1.png) </br>
+![Alt text](https://github.com/RuslanArestov/Ansible_Study/blob/master/images/2.2.png) </br>
+![Alt text](https://github.com/RuslanArestov/Ansible_Study/blob/master/images/2.3.png) </br>
+
 
 ---
 
