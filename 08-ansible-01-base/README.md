@@ -24,14 +24,14 @@
 
 ## Решение
 
-![Alt text](https://github.com/RuslanArestov/Ansible_Study/blob/master/images/1.1.png) </br>
-![Alt text](https://github.com/RuslanArestov/Ansible_Study/blob/master/images/1.4.png) </br>
-![Alt text](https://github.com/RuslanArestov/Ansible_Study/blob/master/images/1.5.png) </br>
-![Alt text](https://github.com/RuslanArestov/Ansible_Study/blob/master/images/1.7.png) </br>
-![Alt text](https://github.com/RuslanArestov/Ansible_Study/blob/master/images/1.8.png) </br>
-![Alt text](https://github.com/RuslanArestov/Ansible_Study/blob/master/images/1.9.png) </br>
-![Alt text](https://github.com/RuslanArestov/Ansible_Study/blob/master/images/1.10.png) </br>
-![Alt text](https://github.com/RuslanArestov/Ansible_Study/blob/master/images/1.11.png) 
+![Alt text](https://github.com/RuslanArestov/Ansible_Study/blob/master/08-ansible-01-base/images/1.1.png) </br>
+![Alt text](https://github.com/RuslanArestov/Ansible_Study/blob/master/08-ansible-01-base/images/1.4.png) </br>
+![Alt text](https://github.com/RuslanArestov/Ansible_Study/blob/master/08-ansible-01-base/images/1.5.png) </br>
+![Alt text](https://github.com/RuslanArestov/Ansible_Study/blob/master/08-ansible-01-base/images/1.7.png) </br>
+![Alt text](https://github.com/RuslanArestov/Ansible_Study/blob/master/08-ansible-01-base/images/1.8.png) </br>
+![Alt text](https://github.com/RuslanArestov/Ansible_Study/blob/master/08-ansible-01-base/images/1.9.png) </br>
+![Alt text](https://github.com/RuslanArestov/Ansible_Study/blob/master/08-ansible-01-base/images/1.10.png) </br>
+![Alt text](https://github.com/RuslanArestov/Ansible_Study/blob/master/08-ansible-01-base/images/1.11.png) 
 
 
 
@@ -46,9 +46,9 @@
 
 ## Решение
 
-![Alt text](https://github.com/RuslanArestov/Ansible_Study/blob/master/images/2.1.png) </br>
-![Alt text](https://github.com/RuslanArestov/Ansible_Study/blob/master/images/2.2.png) </br>
-![Alt text](https://github.com/RuslanArestov/Ansible_Study/blob/master/images/2.3.png) </br>
+![Alt text](https://github.com/RuslanArestov/Ansible_Study/blob/master/08-ansible-01-base/images/2.1.png) </br>
+![Alt text](https://github.com/RuslanArestov/Ansible_Study/blob/master/08-ansible-01-base/images/2.2.png) </br>
+![Alt text](https://github.com/RuslanArestov/Ansible_Study/blob/master/08-ansible-01-base/images/2.3.png) </br>
 
 
 ---
