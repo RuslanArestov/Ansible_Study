@@ -36,75 +36,75 @@
 ## Установка и настройка ClickHouse
 
 ### Параметры 
-hosts: clickhouse 
+hosts: clickhouse </br>
 become: true
 
 ### Хэндлеры 
-Start clickhouse service 
-Перезапускает службу ClickHouse 
+Start clickhouse service </br>
+Перезапускает службу ClickHouse </br>
 Теги: clickhouse, start service
 
 ### Задачи 
-* Get clickhouse distrib 
-Скачивает дистрибутивы ClickHouse для архитектуры AMD64 
+* Get clickhouse distrib </br>
+Скачивает дистрибутивы ClickHouse для архитектуры AMD64 </br>
 Теги: clickhouse, distr
 
-* Update apt cache 
+* Update apt cache </br>
 Обновляет кэш APT
 
-* Install clickhouse packages using dpkg  
-Устанавливает пакеты ClickHouse с использованием dpkg 
-Теги: clickhouse, distr 
+* Install clickhouse packages using dpkg  </br>
+Устанавливает пакеты ClickHouse с использованием dpkg </br>
+Теги: clickhouse, distr </br>
 Notify: Start clickhouse service
 
-* Flush handlers 
-Выполняет все отложенные хэндлеры 
+* Flush handlers </br>
+Выполняет все отложенные хэндлеры </br>
 Теги: clickhouse, start service
 
-* Wait for clickhouse-server to be ready 
-Ожидает, пока сервер ClickHouse станет доступен на порту 9000 
+* Wait for clickhouse-server to be ready </br>
+Ожидает, пока сервер ClickHouse станет доступен на порту 9000 </br>
 Теги: clickhouse, wait
 
-* Create database 
-Создает базу данных logs в ClickHouse 
+* Create database </br>
+Создает базу данных logs в ClickHouse </br>
 Теги: clickhouse, db
 
 ## Установка и настройка Vector 
 
 ### Параметры 
-hosts: vector 
+hosts: vector </br>
 become: true
 
 ### Хэндлеры 
-Start vector service 
-Перезапускает службу Vector 
+Start vector service </br>
+Перезапускает службу Vector </br>
 Теги: vector, restartservice
 
 ### Задачи 
-* Get vector distrib 
-Скачивает дистрибутив Vector для архитектуры AMD64 
+* Get vector distrib </br>
+Скачивает дистрибутив Vector для архитектуры AMD64 </br>
 Теги: vector, distr
 
-* Update apt cache 
+* Update apt cache </br>
 Обновляет кэш APT
 
-* Install vector 
-Устанавливает пакет Vector с использованием dpkg 
+* Install vector </br>
+Устанавливает пакет Vector с использованием dpkg </br>
 Теги: vector, distr
 
-* Deploy vector configuration 
-Развертывает конфигурационный файл Vector с использованием шаблона Jinja2 
-Теги: vector, config 
+* Deploy vector configuration </br>
+Развертывает конфигурационный файл Vector с использованием шаблона Jinja2 </br>
+Теги: vector, config </br>
 Notify: Start vector service
 
-* Flush handlers 
-Выполняет все отложенные хэндлеры 
+* Flush handlers </br>
+Выполняет все отложенные хэндлеры </br>
 Теги: vector, restart service
 
 ## Переменные 
-clickhouse_version: Версия ClickHouse для установки 
-clickhouse_packages: Список пакетов ClickHouse для установки 
-vector_version: Версия Vector для установки. 
+clickhouse_version: Версия ClickHouse для установки </br>
+clickhouse_packages: Список пакетов ClickHouse для установки </br>
+vector_version: Версия Vector для установки. </br>
 vector_config_path: Путь для конфигурационного файла Vector
 
 ---
