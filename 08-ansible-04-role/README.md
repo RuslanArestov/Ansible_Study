@@ -39,6 +39,12 @@
 
 ---
 
+## Решение
+
+[Ссылка на роль Lighthouse](https://github.com/RuslanArestov/lighthouse-role.git) </br>
+
+[Ссылка на роль Vector](https://github.com/RuslanArestov/vector-role.git)
+
 ### Как оформить решение задания
 
 Выполненное домашнее задание пришлите в виде ссылки на .md-файл в вашем репозитории.
