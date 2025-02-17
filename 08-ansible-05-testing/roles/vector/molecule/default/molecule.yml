@@ -1,0 +1,36 @@
+---
+driver:
+  name: docker
+platforms:
+  # - name: centos
+  #   image: docker.io/pycontribs/centos:8
+  #   pre_build_image: true
+  # # - name: oraclelinux
+  # #   image: docker.io/oraclelinux:8
+  # #   pre_build_image: true
+  # - name: ubuntu
+  #   image: docker.io/pycontribs/ubuntu:latest
+  #   pre_build_image: true
+
+  - name: debian
+    image: debian:latest
+    dockerfile: Dockerfile.debian
+    build:
+      path: .
+  - name: ubuntu
+    image: ubuntu:latest
+    dockerfile: Dockerfile.ubuntu
+    build:
+      path: .
+  - name: oraclelinux
+    image: oraclelinux:9
+    dockerfile: Dockerfile.oraclelinux
+    build:
+      path: .     
+# verifier:
+#   name: ansible
+#   options:
+#     playbook: molecule/default/verify.yml
+
+
+

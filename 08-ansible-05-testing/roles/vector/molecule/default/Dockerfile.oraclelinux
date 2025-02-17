@@ -1,0 +1,9 @@
+FROM oraclelinux:9
+
+RUN yum install -y oracle-epel-release-el9 && \
+    yum install -y python3 && \
+    yum clean all
+
+ENV PATH="/usr/bin:${PATH}"
+
+CMD ["/bin/bash"]

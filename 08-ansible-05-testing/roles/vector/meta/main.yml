@@ -1,0 +1,20 @@
+galaxy_info:
+  author: Ruslan Arestov
+  description: This is role install Vector
+  company: Arestov R.E.
+  license: MIT
+  min_ansible_version: 2.14
+  platforms:
+    - name: Ubuntu
+      versions:
+        - 22.04
+        - 20.04
+    - name: Debian
+      versions:
+        - 11
+        - 12
+  galaxy_tags: []
+  role_name: vector
+  namespace: vector_namespace
+
+dependencies: []
