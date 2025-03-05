@@ -45,10 +45,10 @@
 ![Alt text](https://github.com/RuslanArestov/Ansible_Study/blob/master/09-ci-01-intro/files/task1.png) </br>
 ![Alt text](https://github.com/RuslanArestov/Ansible_Study/blob/master/09-ci-01-intro/files/task2.png) </br>
 
-[Skillbox Media](https://github.com/RuslanArestov/Ansible_Study/blob/master/09-ci-01-intro/files/KAN-2.xml) </br>
-[Skillbox Media](https://github.com/RuslanArestov/Ansible_Study/blob/master/09-ci-01-intro/files/KAN-3.xml) </br>
-[Skillbox Media](https://github.com/RuslanArestov/Ansible_Study/blob/master/09-ci-01-intro/files/KAN-4.xml) </br>
-[Skillbox Media](https://github.com/RuslanArestov/Ansible_Study/blob/master/09-ci-01-intro/files/KAN-5.xml) </br>
+[file1](https://github.com/RuslanArestov/Ansible_Study/blob/master/09-ci-01-intro/files/KAN-2.xml) </br>
+[file 2](https://github.com/RuslanArestov/Ansible_Study/blob/master/09-ci-01-intro/files/KAN-3.xml) </br>
+[file 3](https://github.com/RuslanArestov/Ansible_Study/blob/master/09-ci-01-intro/files/KAN-4.xml) </br>
+[file 4](https://github.com/RuslanArestov/Ansible_Study/blob/master/09-ci-01-intro/files/KAN-5.xml) </br>
 
 # Scrum
 
@@ -56,9 +56,9 @@
 ![Alt text](https://github.com/RuslanArestov/Ansible_Study/blob/master/09-ci-01-intro/files/scrum_task1.png) </br>
 ![Alt text](https://github.com/RuslanArestov/Ansible_Study/blob/master/09-ci-01-intro/files/scrum_task2.png) </br>
 
-[Skillbox Media](https://github.com/RuslanArestov/Ansible_Study/blob/master/09-ci-01-intro/files/scrum_bug1.xml) </br>
-[Skillbox Media](https://github.com/RuslanArestov/Ansible_Study/blob/master/09-ci-01-intro/files/scrum_task1.xml) </br>
-[Skillbox Media](https://github.com/RuslanArestov/Ansible_Study/blob/master/09-ci-01-intro/files/scrum_task2.xml) </br>
+[file 5](https://github.com/RuslanArestov/Ansible_Study/blob/master/09-ci-01-intro/files/scrum_bug1.xml) </br>
+[file 6](https://github.com/RuslanArestov/Ansible_Study/blob/master/09-ci-01-intro/files/scrum_task1.xml) </br>
+[file 7](https://github.com/RuslanArestov/Ansible_Study/blob/master/09-ci-01-intro/files/scrum_task2.xml) </br>
 
 ---
 
