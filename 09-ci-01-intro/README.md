@@ -36,6 +36,30 @@
 1. Перейдите в Scrum, запланируйте новый спринт, состоящий из задач эпика и одного бага, стартуйте спринт, проведите задачи до состояния Closed. Закройте спринт.
 2. Если всё отработалось в рамках ожидания — выгрузите схемы workflow для импорта в XML. Файлы с workflow и скриншоты workflow приложите к решению задания.
 
+# Решение
+
+# Kanban
+
+![Alt text](https://github.com/RuslanArestov/Ansible_Study/blob/master/09-ci-01-intro/files/bug.png) </br>
+![Alt text](https://github.com/RuslanArestov/Ansible_Study/blob/master/09-ci-01-intro/files/epic.png) </br>
+![Alt text](https://github.com/RuslanArestov/Ansible_Study/blob/master/09-ci-01-intro/files/task1.png) </br>
+![Alt text](https://github.com/RuslanArestov/Ansible_Study/blob/master/09-ci-01-intro/files/task2.png) </br>
+
+[Skillbox Media](https://github.com/RuslanArestov/Ansible_Study/blob/master/09-ci-01-intro/files/KAN-2.xml) </br>
+[Skillbox Media](https://github.com/RuslanArestov/Ansible_Study/blob/master/09-ci-01-intro/files/KAN-3.xml) </br>
+[Skillbox Media](https://github.com/RuslanArestov/Ansible_Study/blob/master/09-ci-01-intro/files/KAN-4.xml) </br>
+[Skillbox Media](https://github.com/RuslanArestov/Ansible_Study/blob/master/09-ci-01-intro/files/KAN-5.xml) </br>
+
+# Scrum
+
+![Alt text](https://github.com/RuslanArestov/Ansible_Study/blob/master/09-ci-01-intro/files/scrum_bug1.png) </br>
+![Alt text](https://github.com/RuslanArestov/Ansible_Study/blob/master/09-ci-01-intro/files/scrum_task1.png) </br>
+![Alt text](https://github.com/RuslanArestov/Ansible_Study/blob/master/09-ci-01-intro/files/scrum_task2.png) </br>
+
+[Skillbox Media](https://github.com/RuslanArestov/Ansible_Study/blob/master/09-ci-01-intro/files/scrum_bug1.xml) </br>
+[Skillbox Media](https://github.com/RuslanArestov/Ansible_Study/blob/master/09-ci-01-intro/files/scrum_task1.xml) </br>
+[Skillbox Media](https://github.com/RuslanArestov/Ansible_Study/blob/master/09-ci-01-intro/files/scrum_task2.xml) </br>
+
 ---
 
 ### Как оформить решение задания
