@@ -28,7 +28,7 @@
 ![Alt text](https://github.com/RuslanArestov/Ansible_Study/blob/master/09-ci-04-jenkins/images/2.declarative_pipeline_success.png) </br>
 ![Alt text](https://github.com/RuslanArestov/Ansible_Study/blob/master/09-ci-04-jenkins/images/3.Jenkinsfile.png) </br>
 ![Alt text](https://github.com/RuslanArestov/Ansible_Study/blob/master/09-ci-04-jenkins/images/4.success_multibranch_pipeline.png) </br>
-![Alt text](https://github.com/RuslanArestov/Ansible_Study/blob/master/09-ci-04-jenkins/images/5.Scripted Pipeline.png) </br>
+![Alt text](https://github.com/RuslanArestov/Ansible_Study/blob/master/09-ci-04-jenkins/images/5.Scripted_Pipeline.png) </br>
 ![Alt text](https://github.com/RuslanArestov/Ansible_Study/blob/master/09-ci-04-jenkins/images/6.ScriptedJenkinsfile.png) </br>
 
 [Репозиторий с ролью](https://github.com/RuslanArestov/Vector.git)
