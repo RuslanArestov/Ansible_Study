@@ -96,6 +96,11 @@
           - docker-ce-cli
           - containerd.io
         state: present
+    - name: Install pip3
+      become_user: root
+      dnf:
+        name: python3-pip
+        state: present
     - name: Update pip
       become_user: root
       pip:
@@ -110,6 +115,34 @@
           - selinux
           - ansible<3.0
         state: present
+
+    - name: Ensure Python virtual environment is created
+      become: yes
+      become_user: root
+      pip:
+        executable: pip3
+        name: virtualenv
+        state: present
+
+    - name: Create a virtual environment
+      become: yes
+      become_user: root
+      command: >
+        python3 -m venv /opt/molecule-venv
+      args:
+        creates: /opt/molecule-venv/bin/activate 
+
+    - name: Install Molecule and dependencies in the virtual environment
+      become: yes
+      become_user: root
+      pip:
+        virtualenv: /opt/molecule-venv
+        name:
+          - molecule
+          - molecule[docker]
+          - molecule-docker
+        state: present
+
     - name: Reinstall Selinux
       become_user: root
       pip:

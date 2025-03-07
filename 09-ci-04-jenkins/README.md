@@ -19,6 +19,21 @@
 8. Отправить ссылку на репозиторий с ролью и Declarative Pipeline и Scripted Pipeline.
 9. Сопроводите процесс настройки скриншотами для каждого пункта задания!!
 
+# Решение
+
+![Alt text](https://github.com/RuslanArestov/Ansible_Study/blob/master/09-ci-04-jenkins/images/1.freestyle_job_command.png) </br>
+![Alt text](https://github.com/RuslanArestov/Ansible_Study/blob/master/09-ci-04-jenkins/images/1.freestyle_job_run_molecule_test.png) </br>
+![Alt text](https://github.com/RuslanArestov/Ansible_Study/blob/master/09-ci-04-jenkins/images/1.freestyle_job_success_molecule_test.png) </br>
+![Alt text](https://github.com/RuslanArestov/Ansible_Study/blob/master/09-ci-04-jenkins/images/2.declarative_pipeline_command.png) </br>
+![Alt text](https://github.com/RuslanArestov/Ansible_Study/blob/master/09-ci-04-jenkins/images/2.declarative_pipeline_success.png) </br>
+![Alt text](https://github.com/RuslanArestov/Ansible_Study/blob/master/09-ci-04-jenkins/images/3.Jenkinsfile.png) </br>
+![Alt text](https://github.com/RuslanArestov/Ansible_Study/blob/master/09-ci-04-jenkins/images/4.success_multibranch_pipeline.png) </br>
+![Alt text](https://github.com/RuslanArestov/Ansible_Study/blob/master/09-ci-04-jenkins/images/5.Scripted Pipeline.png) </br>
+![Alt text](https://github.com/RuslanArestov/Ansible_Study/blob/master/09-ci-04-jenkins/images/6.ScriptedJenkinsfile.png) </br>
+
+[Репозиторий с ролью](https://github.com/RuslanArestov/Vector.git)
+
+
 ## Необязательная часть
 
 1. Создать скрипт на groovy, который будет собирать все Job, завершившиеся хотя бы раз неуспешно. Добавить скрипт в репозиторий с решением и названием `AllJobFailure.groovy`.
