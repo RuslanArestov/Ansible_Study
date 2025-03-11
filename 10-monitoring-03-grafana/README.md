@@ -60,3 +60,31 @@
 Выполненное домашнее задание пришлите в виде ссылки на .md-файл в вашем репозитории.
 
 ---
+
+# Решение
+
+1.
+![Alt text](https://github.com/RuslanArestov/Ansible_Study/blob/master/10-monitoring-03-grafana.files/1.png) </br>
+
+2.
+![Alt text](https://github.com/RuslanArestov/Ansible_Study/blob/master/10-monitoring-03-grafana.files/2.png) </br>
+![Alt text](https://github.com/RuslanArestov/Ansible_Study/blob/master/10-monitoring-03-grafana.files/2-2.png) </br>
+
+***Free file system location***
+node_filesystem_avail_bytes{fstype!="tmpfs"} / 1024 / 1024 / 1024
+
+***Free RAM***
+node_memory_MemAvailable_bytes / 1024 / 1024
+
+***Load Average***
+node_load1
+node_load5
+node_load15
+
+***CPU utilization***
+100 - (avg by (instance) (rate(node_cpu_seconds_total{mode="idle"}[1m])) * 100)
+
+3.
+![Alt text](https://github.com/RuslanArestov/Ansible_Study/blob/master/10-monitoring-03-grafana.files/3.png) </br>
+
+4. ![Json file](https://github.com/RuslanArestov/Ansible_Study/blob/master/10-monitoring-03-grafana.files/dashboard_json) </br>
