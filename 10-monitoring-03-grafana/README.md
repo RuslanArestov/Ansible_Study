@@ -88,4 +88,4 @@ node_load15
 3.
 ![Alt text](https://github.com/RuslanArestov/Ansible_Study/blob/master/10-monitoring-03-grafana/files/3.png) </br>
 
-4. ![Json file](https://github.com/RuslanArestov/Ansible_Study/blob/master/10-monitoring-03-grafana/files/dashboard_json) </br>
+4. ![Json file](https://github.com/RuslanArestov/Ansible_Study/raw/refs/heads/master/10-monitoring-03-grafana/files/dashboard_json) </br>
