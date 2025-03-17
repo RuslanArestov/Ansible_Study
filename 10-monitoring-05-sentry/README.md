@@ -61,4 +61,8 @@ Free Cloud account имеет ограничения:
 2.
 
 ![Alt text](https://github.com/RuslanArestov/Ansible_Study/blob/master/10-monitoring-05-sentry/images/2.png) </br>
-![Alt text](https://github.com/RuslanArestov/Ansible_Study/blob/master/10-monitoring-05-sentry/images/2-2.png)
+![Alt text](https://github.com/RuslanArestov/Ansible_Study/blob/master/10-monitoring-05-sentry/images/2-2.png) 
+
+3. 
+
+![Alt text](https://github.com/RuslanArestov/Ansible_Study/blob/master/10-monitoring-05-sentry/images/2.png)
