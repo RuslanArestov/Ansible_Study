@@ -1,0 +1,51 @@
+# ---
+# driver:
+#   name: docker
+# platforms:
+#   - name: debian
+#     image: debian:latest
+#     dockerfile: Dockerfile.debian
+#     build:
+#       path: .
+#   - name: ubuntu
+#     image: ubuntu:latest
+#     dockerfile: Dockerfile.ubuntu
+#     build:
+#       path: .
+#   - name: oraclelinux
+#     image: oraclelinux:9
+#     dockerfile: Dockerfile.oraclelinux
+#     build:
+#       path: .     
+
+
+---
+dependency:
+  name: galaxy
+driver:
+  name: docker
+platforms:
+  - name: debian
+    image: debian:latest
+    dockerfile: Dockerfile.debian
+    build:
+      path: .
+  - name: ubuntu
+    image: ubuntu:latest
+    dockerfile: Dockerfile.ubuntu
+    build:
+      path: .
+  - name: oraclelinux
+    image: oraclelinux:9
+    dockerfile: Dockerfile.oraclelinux
+    build:
+      path: .
+provisioner:
+  name: ansible
+  config_options:
+    defaults:
+      interpreter_python: auto_silent
+verifier:
+  name: ansible
+
+
