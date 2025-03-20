@@ -16,12 +16,7 @@ platforms:
     image: oraclelinux:9
     dockerfile: Dockerfile.oraclelinux
     build:
-<<<<<<< HEAD
       path: .   
-=======
-      path: .     
+   
 
-
-
->>>>>>> 0a357138eccc95d6c6437fd16de6eac09afc6975
 
