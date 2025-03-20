@@ -61,4 +61,8 @@ Filebeat следует сконфигурировать для отправки
 
 ---
 
- 
+ # Решение
+
+ ![Alt text](https://github.com/RuslanArestov/Ansible_Study/blob/master/10-monitoring-04-elk/images/1.png) </br>
+ ![Alt text](https://github.com/RuslanArestov/Ansible_Study/blob/master/10-monitoring-04-elk/images/1-2.png) </br>
+  ![Alt text](https://github.com/RuslanArestov/Ansible_Study/blob/master/10-monitoring-04-elk/images/2.png)

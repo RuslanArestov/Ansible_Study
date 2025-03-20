@@ -51,3 +51,18 @@ Free Cloud account имеет ограничения:
 Выполненное домашнее задание пришлите в виде ссылки на .md-файл в вашем репозитории.
 
 ---
+
+# Решение
+
+1.
+
+![Alt text](https://github.com/RuslanArestov/Ansible_Study/blob/master/10-monitoring-05-sentry/images/1.png)
+
+2.
+
+![Alt text](https://github.com/RuslanArestov/Ansible_Study/blob/master/10-monitoring-05-sentry/images/2.png) </br>
+![Alt text](https://github.com/RuslanArestov/Ansible_Study/blob/master/10-monitoring-05-sentry/images/2-2.png) 
+
+3. 
+
+![Alt text](https://github.com/RuslanArestov/Ansible_Study/blob/master/10-monitoring-05-sentry/images/3.png)

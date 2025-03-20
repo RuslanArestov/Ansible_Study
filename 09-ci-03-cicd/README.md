@@ -58,6 +58,14 @@
 3. Проверьте директорию `~/.m2/repository/`, найдите ваш артефакт.
 4. В ответе пришлите исправленный файл `pom.xml`.
 
+# Решение
+
+![Alt text](https://github.com/RuslanArestov/Ansible_Study/blob/master/09-ci-03-cicd/files/1.png) </br>
+
+[Maven-metadata.xml](https://github.com/RuslanArestov/Ansible_Study/blob/master/09-ci-03-cicd/files/maven-metadata.xml) </br>
+
+[Pom file](https://github.com/RuslanArestov/Ansible_Study/blob/master/09-ci-03-cicd/files/pom.xml) </br>
+
 ---
 
 ### Как оформить решение задания

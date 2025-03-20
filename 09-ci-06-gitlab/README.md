@@ -63,3 +63,15 @@
 ### Важно 
 После выполнения задания выключите и удалите все задействованные ресурсы в Yandex Cloud.
 
+# Решение
+
+![Alt text](https://github.com/RuslanArestov/Ansible_Study/blob/master/09-ci-06-gitlab/repository/files/.gitlab-ci.yml.png) </br>
+![Alt text](https://github.com/RuslanArestov/Ansible_Study/blob/master/09-ci-06-gitlab/repository/files/Dockerfile.png) </br>
+![Alt text](https://github.com/RuslanArestov/Ansible_Study/blob/master/09-ci-06-gitlab/repository/files/log_pipeline.png) </br>
+![Alt text](https://github.com/RuslanArestov/Ansible_Study/blob/master/09-ci-06-gitlab/repository/files/close_issue.png) </br>
+![Files](https://github.com/RuslanArestov/Ansible_Study/blob/master/09-ci-06-gitlab/repository/files) </br>
+
+
+
+
+

@@ -1,0 +1,30 @@
+stages:
+  - deploy
+
+image: docker:24.0.5
+
+variables:
+  DOCKER_HOST: unix:///var/run/docker.sock
+  YC_REGISTRY: cr.yandex/crpdsb94kfur3e6v6jdo
+  YC_TOKEN: $YC_TOKEN
+
+before_script:
+  - apk add --no-cache curl bash
+  - curl -sSL https://storage.yandexcloud.net/yandexcloud-yc/install.sh | bash
+  - echo 'export PATH=$PATH:/root/yandex-cloud/bin' >> ~/.bashrc
+  - source ~/.bashrc
+  - yc config set cloud-id b1ga19bdjsqdlb76sg23
+  - yc config set folder-id b1ge6bvcgcf6f5fdolhp
+  - yc config set compute-default-zone ru-central1-a
+  - yc config set token $TOKEN
+  - yc container registry configure-docker
+
+
+deploy_job:
+  stage: deploy
+  script:
+    - docker build -t $YC_REGISTRY/hello:gitlab-$CI_COMMIT_SHORT_SHA .
+    - docker push $YC_REGISTRY/hello:gitlab-$CI_COMMIT_SHORT_SHA
+  only:
+    - main
+
